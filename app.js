@@ -71,3 +71,26 @@ const agregarProducto = () => {
 }
 
 agregarProducto()
+
+const Nombres = [];
+const nombre = prompt("Cual es tu nombre");
+const apellidos=  [];
+const Apellido = prompt("Ingrese su apellido")
+Nombres.push(nombre)
+apellidos.push(Apellido)
+
+if (Nombres.includes(nombre)){
+    alert("Se enviaran sus datos señor: "+ nombre + " "+ Apellido)
+}
+
+
+
+const edad = prompt(" ingrese su edad para verificar")
+if( edad < 18){
+    alert( " No puede comprar estos productos")
+} else {
+    alert("Usted cumple con la edad minima")
+}
+
+
+
