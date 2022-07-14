@@ -120,3 +120,24 @@ borrar.addEventListener("click", () => {
   datos.innerHTML = "";
 })
 
+
+let btn = document.getElementById("myBtn");
+
+btn.addEventListener("click", () => {
+  Swal.fire({
+    title: "Genial!",
+    text: "Haz agregado al carrito",
+    icon: "success",
+    confirmButtonText: "Cool",
+  });
+}); 
+
+btn.addEventListener("click", () => {
+  Swal.fire({
+    title: "Error!",
+    text: "Error inesperado",
+    icon: "error",
+    confirmButtonText: " =( ",
+  });
+}); 
+
